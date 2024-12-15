@@ -27,7 +27,7 @@ export function CodeView({ slides, currentSlide, previousSlide }: CodeViewProps)
   }, [currentSlide, previousSlide, slides]);
 
   return (
-    <div className="w-full h-full bg-black/90 p-4 overflow-auto flex flex-col">
+    <div className="w-full h-full bg-black/90 p-4 overflow-auto flex flex-col text-white">
       <div className="font-mono text-sm flex-1">
         <AnimatePresence initial={false}>
           {diff.map((line) => (

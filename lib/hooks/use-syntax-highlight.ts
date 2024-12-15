@@ -8,6 +8,7 @@ import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-tsx";
 import "prismjs/themes/prism-tomorrow.css";
 
+
 export function useSyntaxHighlight(code: string, language: string = "typescript") {
   const [highlighted, setHighlighted] = useState("");
 

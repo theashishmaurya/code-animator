@@ -1,1 +1,0 @@
-<command>rm components/code-editor.tsx</command>

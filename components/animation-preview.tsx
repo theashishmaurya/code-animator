@@ -1,1 +1,0 @@
-<command>rm components/animation-preview.tsx</command>
